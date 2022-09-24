@@ -1,4 +1,5 @@
 // Index Controller
 export function helloWorld(req, res, next){
-    res.setHeader('Cintent-Type')
-}
+    res.render('index');
+
+};
